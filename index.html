@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>PDF パスワード解除ツール</title>
+</head>
+<body>
+  <h2>PDF パスワード解除</h2>
+
+  <input type="file" id="file"><br><br>
+  <input type="password" id="password" placeholder="PDFのパスワード"><br><br>
+  <button onclick="unlock()">解除する</button>
+
+  <script src="https://unpkg.com/pdf-lib/dist/pdf-lib.min.js"></script>
+  <script src="unlock.js"></script>
+</body>
+</html>
